@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href=".">
+  <script src="https://code.angularjs.org/tools/system.js"></script>
+  <script src="https://code.angularjs.org/tools/typescript.js"></script>
+  <script src="config.js"></script>
+  <script src="https://code.angularjs.org/2.0.0-beta.1/angular2.js"></script>
+  <script src="https://code.angularjs.org/2.0.0-beta.1/angular2-polyfills.js"></script>
+  <script src="https://code.angularjs.org/2.0.0-beta.1/http.dev.js"></script>
+  <script src="https://code.angularjs.org/2.0.0-beta.1/router.dev.js"></script>
+  <script src="https://code.angularjs.org/2.0.0-beta.1/Rx.min.js"></script>
+  <script>
+    System.import('app')
+      .catch(console.error.bind(console));
+  </script>
+  <style>
+    .router-link-active {
+      color: orange;
+    }
+    
+    li.router-link-active {
+      background-color: blue;
+    }
+  </style>
+</head>
+
+<body>
+  
+  <app>Loading....</app>
+</body>
+
+</html>

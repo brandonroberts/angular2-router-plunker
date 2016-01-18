@@ -1,0 +1,15 @@
+{
+  "name": "angular2-router-plunker",
+  "version": "1.0.0",
+  "description": "A mirror of Angular 2 Router examples at: http://plnkr.co/edit/Bim8OGO7oddxBaa26WzR?p=info",
+  "main": "config.js",
+  "scripts": {
+    "start": "./node_modules/lite-server/bin/lite-server --files './**/*.ts' './**/*.html'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^1.3.2"
+  }
+}

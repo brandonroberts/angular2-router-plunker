@@ -1,0 +1,7 @@
+A collection of router examples.
+
+To run this example locally, clone this repository.
+
+In the folder, run "npm install" and "npm start"
+
+Navigate to http://localhost:3001 in your browser
